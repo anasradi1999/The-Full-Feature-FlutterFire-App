@@ -46,7 +46,15 @@ dependencies:
   # Google Sign In Authentication
   google_sign_in: 6.2.1
 
+  # Flutter plugin for selecting images from the Android and iOS image library
+  image_picker: ^1.2.1
+  path: ^1.9.1
 
+  #local notifications for flutter
+  flutter_local_notifications: ^20.1.0
+
+  flutter_bloc: ^9.1.1
+  equatable: ^2.0.8
 
 dev_dependencies:
   flutter_test:
