@@ -41,10 +41,20 @@ dependencies:
   firebase_storage: ^13.0.6
   firebase_messaging: ^16.1.1
   firebase_auth: ^6.1.4
+  firebase_app_check: ^0.4.1+4
 
   # Google Sign In Authentication
-  google_sign_in: ^7.2.0
+  google_sign_in: 6.2.1
 
+  # Flutter plugin for selecting images from the Android and iOS image library
+  image_picker: ^1.2.1
+  path: ^1.9.1
+
+  #local notifications for flutter
+  flutter_local_notifications: ^20.1.0
+
+  flutter_bloc: ^9.1.1
+  equatable: ^2.0.8
 
 dev_dependencies:
   flutter_test:
@@ -69,8 +79,8 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
+  assets:
+    - assets/
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
